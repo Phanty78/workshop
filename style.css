@@ -1,0 +1,53 @@
+/*document*/
+
+body{
+    background-color: #CDDDDD;
+}
+
+/*Header*/
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width:70%;
+    margin: auto;
+    background: linear-gradient(90deg, #ACBDBA,#051014);
+    border-radius: 20px;
+}
+
+.banner p{
+    font-family: 'Amatic SC', cursive;
+    color: #CDDDDD;
+    font-size: 3em;
+}
+
+/*Nav*/
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #2E2F2F;
+    width: 13%;
+    height: 300px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.menu li{
+    font-size: 2em;
+    list-style: none;
+    margin: 5px;
+}
+
+.menu li a{
+    color: #A599B5;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: #ACBDBA;
+    opacity: 0.7;
+}
