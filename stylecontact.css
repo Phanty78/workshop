@@ -4,6 +4,10 @@ body{
     background-color: #CDDDDD;
 }
 
+h1{
+    text-align: center;
+}
+
 /*Header*/
 
 .banner{
@@ -23,6 +27,17 @@ body{
     font-size: 3em;
 }
 
+/*Main*/
+
+main{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
 /*Nav*/
 
 .menu{
@@ -30,7 +45,6 @@ body{
     flex-direction: column;
     justify-content: space-around;
     background-color: #2E2F2F;
-    width: 13%;
     height: 300px;
     margin-top: 50px;
     border-radius: 20px;
@@ -60,4 +74,12 @@ body{
 
 .formulaire{
     margin: 5px;
+    background-color: #2E2F2F;
+    width: 70%;
+    height: 300px;
+    color: #CDDDDD;
+}
+
+input, textarea{
+margin: 5px;
 }
